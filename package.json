@@ -1,0 +1,38 @@
+{
+  "name": "sky-vip-uploader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start:dev": "yarn nodemon src/app.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@fastify/bearer-auth": "^9.0.0",
+    "@fastify/cors": "^8.2.1",
+    "@fastify/helmet": "^10.1.0",
+    "@fastify/multipart": "^7.6.0",
+    "@fastify/rate-limit": "^8.0.0",
+    "@fastify/swagger": "^8.3.1",
+    "@fastify/swagger-ui": "^1.8.0",
+    "aws-sdk": "^2.1358.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.15.0",
+    "luxon": "^3.3.0",
+    "mongoose": "^7.0.3",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unicorn": "^46.0.0",
+    "fastify-cli": "^5.7.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
+  }
+}
